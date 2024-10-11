@@ -1,18 +1,30 @@
 @font-face {
   font-family: 'SourceSansPro-Reg';
-  src: url('fonts/SourceSansPro-Regular.otf');
+  src: url('../fonts/SourceSansPro-Regular.otf');
+}
+
+:root {
+  --main-redish: #FF6565;
 }
 
 body {
   font-family: 'SourceSansPro-Reg';
   display: flex;
   flex-direction: column;
-  background-color: grey;
+  background-color: white;
+
+}
+
+.part-1 {
+  background-image: url(../images/images/headphones_hero_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 a:hover,
 a:active {
-  color: #FF6565;
+  color: var(--main-redish);
 }
 
 button:hover,
@@ -21,11 +33,96 @@ button:active {
 }
 
 .content {
-  max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  margin-left: 30px;
+  margin-right: 40px;
 }
 
-.navi a {
-  text-decoration: none;
+/** Navigation Bar **/
+.navi {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 27px;
+}
 
+.navi a img {
+  display: flex;
+  flex-direction: row;
+  margin-left: 199px;
+  width: 161px;
+  height: 32px;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 200px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+
+}
+
+.navi li a {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 41px; */
+  margin-right: 41px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  width: 61px;
+}
+
+/** Header Text **/
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 312px;
+  width: 637px;
+
+  color: white;
+}
+
+.header-section h1 {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700px;
+  margin-bottom: 0;
+}
+
+.header-section h2 {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.header-section button {
+  width: 163px;
+  height: 44px;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  background-color: var(--main-redish);
+  border-color: var(--main-redish);
+  color: white;
+}
+
+.header-section p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 65px;
+  margin-bottom: ;
 }
