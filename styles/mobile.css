@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'SourceSansPro-Reg';
+  src: url('fonts/SourceSansPro-Regular.otf');
+}
+
+body {
+  font-family: 'SourceSansPro-Reg';
+}
+
+a:hover,
+a:active {
+  color: #FF6565;
+}
+
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
