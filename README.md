@@ -8,5 +8,5 @@ Here we will build a HTML and CSS from scratch with a just a figma file and to m
 - To make a Desktop Responsive website
 
 
-## [Atlas Headphones]([https://youtu.be/dQw4w9WgXcQ?si=N1oiu4MC25Ked9P6](https://dtbissy.github.io/atlas-heaphones/))
+## [Atlas Headphones](https://dtbissy.github.io/atlas-heaphones/)
 The link above will take you to our Github pages with our website
