@@ -7,5 +7,6 @@ Here we will build a HTML and CSS from scratch with a just a figma file and to m
 - TO make a Tablet Responsive website
 - To make a Desktop Responsive website
 
-THe link below will take you to our Github pages with our website
+
 ## [Atlas Headphones](https://youtu.be/dQw4w9WgXcQ?si=N1oiu4MC25Ked9P6)
+The link above will take you to our Github pages with our website
