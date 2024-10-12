@@ -4,12 +4,17 @@
 }
 
 :root {
+  --background-color: #071629;
   --main-redish: #FF6565;
-  /** Header Fonts*/
-  --header-h1: 32px;
-  --header-h2-p: 16px;
-  --header-button: 14px;
-
+  --h1-font: 32px;
+  --h2-p-font: 16px;
+  --button-font: 14px;
+  --logo-width: 161px;
+  --logo-height: 32px;
+  /** Header*/
+  /**What We Do Fonts **/
+  --wwd-h1: 32px;
+  --wwd-p: 16px;
 }
 
 body {
@@ -55,8 +60,8 @@ button:active {
   display: flex;
   flex-direction: row;
   margin-left: 199px;
-  width: 161px;
-  height: 32px;
+  width: var(--logo-width);
+  height: var(--logo-height);
 }
 
 nav {
@@ -98,7 +103,7 @@ ul {
 }
 
 .header-section h1 {
-  font-size: var(--header-h1);
+  font-size: var(--h1-font);
   text-align: center;
   font-weight: 700px;
   margin-bottom: 0;
@@ -115,7 +120,7 @@ ul {
   width: 163px;
   height: 44px;
   border-radius: 22px;
-  font-size: var(--header-button);
+  font-size: var(--button-font);
   font-weight: 700;
   text-align: center;
   background-color: var(--main-redish);
@@ -125,9 +130,176 @@ ul {
 
 .header-section p {
   text-align: center;
-  font-size: var(--header-h2-p);
+  font-size: var(--h2-p-font);
   font-weight: 400;
   line-height: 26px;
   margin-top: 65px;
   margin-bottom: 115px;
+}
+
+/** What we do Section **/
+.wwd-whole {
+  display: flex;
+  flex-direction: column;
+}
+
+.wwd-top-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wwd-top-container h1 {
+  width: 190px;
+  font-size: var(--h1-font);
+  font-weight: 600;
+}
+
+.wwd-top-container p {
+  width: 637px;
+  text-align: center;
+  font-size: var(--h2-p-font);
+}
+
+.wwd-icon-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1002px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 97px;
+  margin-bottom: 110px;
+}
+
+.wwd-icon-container .icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 207px;
+  margin-left: 58px;
+  margin-right: auto;
+}
+
+/** Our results speak for themselves Section **/
+
+.results-speak {
+  background: url("../images/images/headphones_hero_2.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.results-speak h1 {
+  text-align: center;
+  margin-top: 141px;
+}
+
+.results-speak p {
+  text-align: center;
+  width: 637px;
+  margin: auto;
+  margin-bottom: 56px;
+}
+
+.poly-containers {
+  display: flex;
+  flex-direction: row;
+  width: 1002px;
+  margin-left: 203px;
+  margin-right: 205px;
+}
+
+.poly-containers .polys {
+  display: flex;
+  flex-direction: row;
+  width: 190px;
+  height: 190px;
+}
+
+.poly-containers .polys {
+  position: relative;
+}
+
+.poly-containers .polys img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+
+}
+
+/** Footer **/
+.footer {
+  background-color: var(--background-color);
+  height: 249px;
+}
+
+.foot-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 91px;
+  padding-left: 199px;
+  margin-right: auto;
+}
+
+.foot-container img {
+  width: var(--logo-width);
+  height: var(--logo-height);
+}
+
+.socials {
+  margin-left: auto;
+  margin-right: 200px;
+}
+
+footer p {
+  margin-top: 71px;
+  text-align: center;
+  color: white;
+  opacity: 0.3517;
+}
+
+/** Glyphs**/
+
+@font-face {
+  font-family: 'holberton_school-icon';
+  src: url('fonts/holberton_school-icon.eot?sq4eq4');
+  src: url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+    url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+    url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="holberton_school-icon-"],
+[class*=" holberton_school-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'holberton_school-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-ic_twitter:before {
+  content: "\e90f";
 }
