@@ -85,7 +85,6 @@ ul {
   color: white;
   font-size: 12px;
   font-weight: 700;
-  width: 61px;
 }
 
 /** Header Text **/
@@ -174,10 +173,16 @@ button {
   margin-bottom: 110px;
 }
 
+.wwd-icon-container span {
+  font-size: 94px;
+  color: #FF6565;
+}
+
 .wwd-icon-container .icon-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 207px;
   margin-left: 58px;
   margin-right: auto;
@@ -208,10 +213,14 @@ button {
   margin-bottom: 56px;
 }
 
+/** Kind of Irrelavent But nesscary **/
+
 .poly-containers {
   display: flex;
   flex-direction: row;
 }
+
+/** Surrounds the polygons in WHOLE **/
 
 .card {
   display: flex;
@@ -257,6 +266,8 @@ button {
   width: unset;
   margin-bottom: 0px;
 }
+
+/** the text in the poly gon **/
 
 .overlay-text {
   position: relative;
@@ -384,6 +395,11 @@ textarea:focus {
   margin-right: 200px;
 }
 
+.socials a {
+  color: white;
+  font-size: 24px;
+}
+
 footer p {
   display: flex;
   justify-content: center;
@@ -397,11 +413,11 @@ footer p {
 
 @font-face {
   font-family: 'holberton_school-icon';
-  src: url('fonts/holberton_school-icon.eot?sq4eq4');
-  src: url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
-    url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
-    url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
-    url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+  src: url('../icons/holberton_school-icon/fonts/holberton_school-icon.eot?sq4eq4');
+  src: url('../icons/holberton_school-icon/fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+    url('../icons/holberton_school-icon/fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+    url('../icons/holberton_school-icon/fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+    url('../icons/holberton_school-icon/fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -420,6 +436,22 @@ footer p {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-ic_hearing:before {
+  content: "\e909";
+}
+
+.holberton_school-icon-ic_music:before {
+  content: "\e90d";
+}
+
+.holberton_school-icon-ic_video:before {
+  content: "\e910";
+}
+
+.holberton_school-icon-ic_sound:before {
+  content: "\e90e";
 }
 
 .holberton_school-icon-ic_twitter::before {
