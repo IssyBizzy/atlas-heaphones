@@ -30,6 +30,7 @@ body {
   background-image: url(../images/images/headphones_hero_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 
 }
 
@@ -59,9 +60,33 @@ button:active {
 }
 
 .navi span {
-  font-size: 50px;
+  display: flex;
+  position: absolute;
+  font-size: 38px;
   color: #ccc;
+  margin-top: 29px;
+  margin-left: 21px;
 }
+
+/*** Span Transition and things **/
+
+.navi span {
+  transform: none;
+}
+
+.navi span:target {
+  transform: rotate(90deg);
+}
+
+#show-nav {
+  display: none;
+}
+
+#show-nav:target {
+  display: block;
+}
+
+
 
 .navi a img {
   display: flex;
@@ -78,10 +103,12 @@ nav {
   margin-right: auto;
   margin-left: auto;
   /* padding-left: 100px; */
+
 }
 
 ul {
   list-style-type: none;
+  padding-inline-start: 0px;
 
 }
 
@@ -94,6 +121,7 @@ ul {
   color: white;
   font-size: 12px;
   font-weight: 700;
+  padding-top: 30px;
 }
 
 /** Header Text **/
@@ -104,7 +132,7 @@ ul {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 312px;
+  margin-top: 266px;
   width: 335px;
 
   color: white;
@@ -206,6 +234,7 @@ button {
 .results-speak {
   background: url("../images/images/headphones_hero_2.jpg") no-repeat;
   background-size: cover;
+  background-position: center center;
   display: flex;
   flex-direction: column;
   color: white;
@@ -237,7 +266,7 @@ button {
 
 .card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-left: auto;

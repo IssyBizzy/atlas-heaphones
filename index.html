@@ -19,15 +19,15 @@
   <header class="part-1">
     <div class="header-container">
       <div class="navi">
+        <a href="#show-nav rotate"><span class="holberton_school-icon-menu"></span></a>
         <a href="index.html">
-          <span class="holberton_school-icon-menu"></span>
           <img src="images/images/logo_headphones.png" alt="Logo">
         </a>
-        <nav>
+        <nav id="show-nav" style="display: none;">
           <ul>
-            <li><a href="">what we do</li></a>
-            <li><a href="">our results</a>
-            <li><a href="">contact us</li></a>
+            <li><a href="">what we do</a></li>
+            <li><a href="">our results</a></li>
+            <li><a href="">contact us</a></li>
           </ul></span>
         </nav>
       </div>
@@ -170,6 +170,25 @@
       <p>©headphones 2020</p>
     </footer>
   </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const menuIcon = document.querySelector('.holberton_school-icon-menu');
+
+      function toggleNavVisibility() {
+        const showNav = document.getElementById('show-nav');
+        showNav.style.display = showNav.style.display === 'none' ? 'block' : 'none';
+      }
+
+      menuIcon.addEventListener('touch', toggleNavVisibility);
+
+
+      if (window.innerWidth <= 768) {
+        menuIcon.addEventListener('touchstart', toggleNavVisibility);
+      }
+    });
+
+  </script>
 </body>
 
 </html>
