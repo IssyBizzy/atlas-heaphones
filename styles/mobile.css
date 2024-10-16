@@ -112,6 +112,10 @@ ul {
 
 }
 
+nav li {
+  text-decoration: none;
+}
+
 .navi li a {
   display: flex;
   flex-direction: row;
@@ -451,6 +455,7 @@ textarea:focus {
   font-size: 24px;
   margin-left: auto;
   margin-right: auto;
+  text-decoration: none;
 }
 
 footer p {

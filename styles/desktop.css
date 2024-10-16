@@ -110,7 +110,7 @@ ul {
 }
 
 .header-section h2 {
-  font-size: var(--header-h2-p);
+  font-size: 16px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 53px;
@@ -162,6 +162,7 @@ button {
   width: 637px;
   text-align: center;
   font-size: var(--h2-p-font);
+  font-size: 14px;
 }
 
 .wwd-icon-container {
@@ -399,6 +400,7 @@ textarea:focus {
 .socials a {
   color: white;
   font-size: 24px;
+  text-decoration: none;
 }
 
 footer p {
