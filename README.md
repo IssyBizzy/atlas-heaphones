@@ -69,7 +69,7 @@ Desktop: 1025px and above
 
 Here is the link to our web page:
 
-(Atlas Headphones)[https://dtbissy.github.io/atlas-heaphones/]
+[Atlas Headphones](https://dtbissy.github.io/atlas-heaphones/)
 
 AUTHORS:
 
