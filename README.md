@@ -1,6 +1,8 @@
-WEBPAGE FROM SCRATCH
+ # WEBPAGE FROM SCRATCH
 
 This project is a simple yet fully functional webpage built from scratch using HTML and CSS. It focuses on creating a clean, responsive design and ensures accessibility for all users, including those with disabilities. The goal of this project is to practice web development fundamentals while adhering to modern standards.
+
+# [Atlas Headphones](https://dtbissy.github.io/atlas-heaphones/)
 
 This project is designed to create a simple, static webpage with a focus on:
 
@@ -12,7 +14,7 @@ This project is designed to create a simple, static webpage with a focus on:
 
 4. Accessibility: Making the webpage usable for everyone, including people with disabilities, by adhering to accessibility best practices.
 
-FEATURES
+## FEATURES
 
 1. Responsive Layout: The webpage adjusts its layout based on the screen size of the device.
 
@@ -24,7 +26,7 @@ FEATURES
 
 5. Cross-browser Compatibility: Tested in multiple browsers for a consistent experience.
 
-TECHNOLOGIES USED
+## TECHNOLOGIES USED
 
 1. HTML5: For the structure and semantic markup of the webpage.
 
@@ -35,9 +37,9 @@ TECHNOLOGIES USED
 4. ARIA (Accessible Rich Internet Applications): For better screen reader support and accessibility enhancements.
 
 
-DEVELOPMENT WORKFLOW
+# DEVELOPMENT WORKFLOW
 
-Building the HTML Structure:
+## Building the HTML Structure:
 
 Use semantic HTML5 elements like <header>, <nav>, <main>, <section>, <footer>.
 Ensure that content is logically structured for easy navigation.
@@ -51,7 +53,7 @@ Adding Responsive Design:
 Use media queries to adjust layouts for different screen sizes.
 Test the webpage on various devices and screen resolutions to ensure responsiveness.
 
-ENHANCING ACCESSIBILITY:
+## ENHANCING ACCESSIBILITY:
 
 1. Add alt attributes to images for screen readers.
 
@@ -59,7 +61,7 @@ ENHANCING ACCESSIBILITY:
 
 3. Ensure proper focus states for interactive elements like links and buttons.
 
-RESPONSIVE DESIGN
+## RESPONSIVE DESIGN
 
 This project uses a desktop-first approach, meaning styles are optimized for desktop devices first and adjusted for smaller screens using media queries. Some key breakpoints used are:
 
@@ -69,9 +71,8 @@ Desktop: 1025px and above
 
 Here is the link to our web page:
 
-[Atlas Headphones](https://dtbissy.github.io/atlas-heaphones/)
 
-AUTHORS:
+## AUTHORS:
 
 Bret Johnson
 Isaac Edwards
