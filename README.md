@@ -2,7 +2,7 @@
 
 This project is a simple yet fully functional webpage built from scratch using HTML and CSS. It focuses on creating a clean, responsive design and ensures accessibility for all users, including those with disabilities. The goal of this project is to practice web development fundamentals while adhering to modern standards.
 
-# [Atlas Headphones](https://dtbissy.github.io/atlas-heaphones/)
+# [Atlas Headphones](https://issybizzy.github.io/atlas-heaphones/)
 
 This project is designed to create a simple, static webpage with a focus on:
 
